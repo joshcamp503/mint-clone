@@ -1,0 +1,29 @@
+/*Stylesheet for mint-clone project*/
+
+#wrapper {
+  margin: 0 250px;
+}
+
+#header-whitespace {
+  height: 100px;
+}
+
+#logo-and-tags {
+  height: 100px;
+}
+
+.header-links {
+  float: right;
+}
+
+.signup input{
+  display: block;
+}
+
+#phone-notice {
+  font-size: 10px;
+}
+
+.footer {
+  text-align: center;
+}
