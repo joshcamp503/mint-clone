@@ -7,6 +7,7 @@
   </head>
   <body>
 
+  <!-- start main content wrapper -->
   <div id="wrapper">
 
     <div id="header-whitespace">
@@ -17,12 +18,20 @@
         <a href="#"><img src="#" alt="LOGO"></a>
       </div>
       <div class="header-links">
-        <p><a href="#">Sign up</a> | <a href="#">Log in</a></p>
+        <a href="#"><strong>Sign up</strong></a> | <a href="#">Log in</a></p>
       </div>
     </div>
 
-    <div id="signup-form">
-      <form action='signup' >
+    <div id="form-container">
+      <div id="sidebar">
+        <h3>Why you'll love it</h3>
+          <ul>
+            <li>See all your accounts in one place</li>
+            <li>Find the best ways to grow your money</li>
+            <li>Stay <a href="#">safe and secure</a></li>
+          </ul>
+      </div> 
+      <form id='signup' action='signup' >
         <legend>See all your finances in one place</legend>
         <fieldset class="signup">
           <label for='email'>
@@ -50,14 +59,17 @@
         </fieldset>
         <fieldset class="signup-action">
           <label for='remember'>
-            <input type="checkbox" id='remember' name="remember"> Remember me
+            <input type="checkbox" id='remember' name="remember">Remember me 
           </label>
+          <br>
           <input class="btn" type="submit" name="submit" value="SIGN UP">
           <span id="terms-statement">By clicking Sign Up you agree to our <a class='terms-link' href="#">Terms of Use</a> and <a class='terms-link' href='#'>Privacy Statement</a></span>
         </fieldset>
-      </form>
+      </form>  
     </div>
-  </div>
+
+  </div> 
+  <!-- end of wrapper -->
 
 
     <div class='footer'>
