@@ -36,7 +36,7 @@
   padding: 35px;
   border: solid 1px gray;
   border-top: none;
-  height: 790px;
+  height: 690px;
 }
 
 #signup fieldset {
@@ -56,8 +56,44 @@
   width: 300px;
 }
 
+#phone {
+  margin-bottom: 0;
+}
+
 #phone-notice {
+  margin: 0;
   font-size: 10px;
+}
+
+#password {
+  margin-top: 20px;
+}
+
+.remember {
+  padding-top: 0;
+  padding-bottom: 20px;
+}
+
+#remember {
+  float: left;
+}
+
+#remember-text {
+  float: left;
+}
+
+.btn {
+  height: 34px;
+  width: 110px;
+  padding: 0 20px;
+  border: none;
+  border-radius: 2px;
+  color: white;
+  background-color: teal;
+}
+
+#terms-statement {
+  font-size: 12px;
 }
 
 #sidebar {
@@ -87,4 +123,23 @@
 
 .footer {
   text-align: center;
+  margin-top: 65px;
+}
+
+.footer-links {
+  margin: 10px 0;
+}
+
+#footer-links a {
+  padding: 0 20px;
+  font-size: 16px;
+}
+
+.security-links {
+margin-top: 100px;
+margin-bottom: 30px;
+}
+
+.copyright {
+  font-size: 12px;
 }
